@@ -8,9 +8,8 @@
 }
 
 
-body{
-    background-color: var(--primary) !important;
-    padding-top: 150px;
+#recipes-of-the-week{
+    margin-top: 150px;
 }
 
 
