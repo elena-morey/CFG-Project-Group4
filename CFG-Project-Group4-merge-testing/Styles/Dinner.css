@@ -19,13 +19,12 @@
     border-bottom: 1px solid #4c6e5d;
 }
 
-.navbar-brand{
+ .navbar-brand{ 
     font-family: "DM Serif Display", serif;
     font-weight: 100;
     font-style: normal;
     font-size: 4rem;
-}
-
+ }
 
 
 
@@ -194,6 +193,7 @@
 /* Mary Stuff */
 h1 {
     text-align: center;
+
 }
 .btn {
     color: white;
@@ -232,7 +232,11 @@ main {
     padding: 10px;
     text-align: center;
 }
-
+.recipe-item:hover{
+    background-color:#4c6e5d;
+    transition: 0.7s;
+    color:#fff;
+  }
 .recipe-item img {
     width: 100%;
     height: auto;
@@ -250,7 +254,7 @@ main {
     text-decoration: none;
   }
 .subBtn:hover {
-    background-color:#002ead;
+    background-color:#4c6e5d;
     transition: 0.7s;
   }
   
