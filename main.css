@@ -15,6 +15,18 @@ body{
 
 }
 
+:root{ 
+    --bs-primary-rgb: 243, 225, 213 !important;
+    --bs-secondary-rgb: 250, 245, 239 !important; 
+    --bs-info-rgb: 76, 110, 93 !important; 
+    --bs-dark-rgb: 68, 67, 63 !important; 
+    --bs-bg-opacity: 1;
+}
+
+#container1{
+    margin-top: 150px;
+}
+
 img{
     max-width: 100%;
     display: block;
