@@ -23,6 +23,19 @@ body{
     --bs-bg-opacity: 1;
 }
 
+
+.navbar{
+    border-bottom: 1px solid #4c6e5d;
+}
+
+.navbar-brand{
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+
 #container1{
     margin-top: 150px;
 }
