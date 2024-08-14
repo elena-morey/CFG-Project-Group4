@@ -1,0 +1,188 @@
+
+:root{ 
+    --bs-primary-rgb: 243, 225, 213 !important;
+    --bs-secondary-rgb: 250, 245, 239 !important; 
+    --bs-info-rgb: 76, 110, 93 !important; 
+    --bs-dark-rgb: 68, 67, 63 !important; 
+    --bs-bg-opacity: 1;
+}
+
+
+#recipes-of-the-week{
+    margin-top: 150px;
+}
+
+
+/* Header Navbar */
+
+.navbar{
+    border-bottom: 1px solid #4c6e5d;
+}
+
+.navbar-brand{
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+
+
+
+.header-box:first-child > div { margin-right: auto;}
+.header-box:last-child > div{ margin-left: auto;}
+
+/* Recipes of the week */
+.rotw-card{
+    min-width: 275px;
+    height: 450px;
+    box-sizing: border-box;
+    
+}
+
+.rotw-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+.rotw-title{
+    width: 275px;
+    height: 20%;
+    background-color: #f3e1d5e6;
+    color: #4c6e5d;
+    position: absolute;
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 1%;
+    
+}
+/* ROTW Recipe Card Images */
+#rotw-recipe1{
+    background-image: url(/images/rotw-recipe1.jpg);
+}
+
+#rotw-recipe2{
+    background-image: url(/images/rotw-recipe2.jpg);
+}
+
+#rotw-recipe3{
+    background-image: url(/images/rotw-recipe3.jpg);
+}
+
+#rotw-recipe4{
+    background-image: url(/images/rotw-recipe4.jpg);
+}
+
+#rotw-recipe5{
+    background-image: url(/images/rotw-recipe5.jpg);
+}
+
+#rotw-recipe6{
+    background-image: url(/images/rotw-recipe6.jpg);
+}
+
+#rotw-recipe7{
+    background-image: url(/images/rotw-recipe7.jpg);
+}
+
+#rotw-recipe8{
+    background-image: url(/images/rotw-recipe8.jpg);
+}
+
+#rotw-recipe9{
+    background-image: url(/images/rotw-recipe9.jpg);
+}
+
+#rotw-recipe10{
+    background-image: url(/images/rotw-recipe10.jpg);
+}
+
+#rotw-recipe11{
+    background-image: url(/images/rotw-recipe11.jpg);
+}
+
+#rotw-recipe12{
+    background-image: url(/images/rotw-recipe12.jpg);
+}
+
+/* Meet the chef */
+#mtc-img{
+    height: 500px;
+    width: 100%;
+    background-image: url(/images/chef.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#mtc-text{
+    padding:50px;
+}
+
+
+
+/* Menu options */
+.menu-option-container{
+    width:100%;
+    height: 150px;
+    transition: height 1s ease-in-out;
+}
+
+.menu-option-container:hover{
+    height: 175px;
+    
+}
+
+.moc-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#moc-breakfast{
+    background-image: url(/images/breakfast-1.jpeg);
+}
+
+#moc-lunch{
+    background-image: url(/images/lunch-1.jpeg);
+}
+
+#moc-dinner{
+    background-image: url(/images/dinner-1.jpeg);
+}
+
+#moc-dessert{
+    background-image: url(/images/dessert-1.jpeg);
+}
+
+#moc-snacks{
+    background-image: url(/images/snacks-1.jpeg);
+}
+
+
+
+@media(min-width: 768px){
+    .menu-option-container{
+        height: 80vh;
+        transition: scale 1s ease-in-out;
+    }
+
+    .menu-option-container:hover{
+        height: 80vh;
+        max-width: 600px;
+        scale: 1.025;
+    }
+
+}
+
+
+.placeholder-box{
+    margin-top: 150px;
+}
